@@ -1,9 +1,11 @@
-import Header from "../components/Header.tsx";
+import Offer from "../components/Offer.tsx";
 import type {FC} from "react";
 
 const Home: FC = () => {
     return (
-        <Header />
+        <main>
+            <Offer />
+        </main>
     );
 };
 

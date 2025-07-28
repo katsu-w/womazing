@@ -1,0 +1,21 @@
+.header {
+  padding: 51px 0 41px;
+  background-color: #fff;
+
+  &__nav {
+    display: flex;
+    max-width: 1110px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    &-list {
+      display: flex;
+      list-style: none;
+      gap: 45px;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+}
