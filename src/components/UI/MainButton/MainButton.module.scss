@@ -1,0 +1,16 @@
+@use '../variables' as v;
+
+.button {
+  padding: 22px 50px;
+  color: #FFF;
+  border: none;
+  background-color: v.$accent-color;
+}
+
+.primary {
+  background-color: v.$accent-color;
+}
+
+.outlined {
+  border : 1px solid v.$accent-color;
+}

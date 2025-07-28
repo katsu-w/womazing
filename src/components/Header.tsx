@@ -35,15 +35,15 @@ const Header: FC = () => {
                     </li>
                 </ul>
                 <div className="header__phone-wrapper">
-                    <img src="#" alt=""/>
+                    <img src="/telephone-icon.svg" alt=""/>
                     <a href="tel:+74958235412"
                        className="phone header__phone"
                     >
                         +7 (495) 823-54-12
                     </a>
                 </div>
-                <button className="cart-button header__cart-button">
-                    <img src="#" alt="Корзина"/>
+                <button className="button cart-button header__cart-button">
+                    <img src="/cart-icon.svg" alt="Корзина"/>
                 </button>
             </nav>
         </header>

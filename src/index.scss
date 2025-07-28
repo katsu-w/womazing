@@ -12,3 +12,17 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  margin: 0;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 0;
+  border: 1px solid gray;
+  background-color: transparent;
+  cursor: pointer;
+}

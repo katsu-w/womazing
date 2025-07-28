@@ -1,5 +1,5 @@
 import {type FC} from 'react';
-import MainButton from "./UI/MainButton.tsx";
+import MainButton from "./UI/MainButton/MainButton.tsx";
 
 const Offer: FC = () => {
     return (
