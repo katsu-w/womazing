@@ -1,16 +1,16 @@
-@use '../variables' as v;
+@use '/src/styles/helpers' as *;
 
 .button {
-  padding: 22px 50px;
+  padding: rem(22) rem(50);
   color: #FFF;
   border: none;
-  background-color: v.$accent-color;
+  background-color: var(--accent-color);
 }
 
 .primary {
-  background-color: v.$accent-color;
+  background-color: var(--accent-color);
 }
 
 .outlined {
-  border : 1px solid v.$accent-color;
+  border : 1px solid var(--accent-color);
 }

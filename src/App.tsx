@@ -1,7 +1,7 @@
-import './App.scss'
+import './styles/main.scss'
 import {BrowserRouter} from "react-router";
 import AppRouter from "./components/AppRouter.tsx";
-import Header from "./components/Header.tsx";
+import Header from "./components/Header/Header.tsx";
 
 function App() {
 
