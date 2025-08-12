@@ -1,9 +1,13 @@
-.button {
-	margin: 0;
-	padding: 0;
-	outline: none;
-	border-radius: 0;
-	border: 1px solid gray;
-	background-color: transparent;
-	cursor: pointer;
+@use 'helpers' as *;
+
+body {
+	font-family: var(--font-family), sans-serif;
+	font-weight: 500;
+	color: var(--color-dark);
+	font-size: rem(17);
+}
+
+a {
+	color: var(--color-dark);
+	text-decoration: none;
 }

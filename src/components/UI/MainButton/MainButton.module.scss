@@ -2,15 +2,16 @@
 
 .button {
   padding: rem(22) rem(50);
-  color: #FFF;
   border: none;
   background-color: var(--accent-color);
 }
 
 .primary {
   background-color: var(--accent-color);
+	color: var(--color-light);
 }
 
 .outlined {
-  border : 1px solid var(--accent-color);
+  border : var(--border);
+	color: var(--accent-color);
 }

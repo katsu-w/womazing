@@ -2,31 +2,24 @@
 
 :root {
 	--accent-color: #6E9C9F;
-	--color-light: #FFFFFF;
+	--hover-color: #509498;
+	--section-color: #F1EADC;
 	
-	--color-dark: #141414;
+	--color-light: #FFF;
+	--aditional-color: #998E78;
+	--crossed-color: #9C9C9C;
 	
-	--gradient: linear-gradient(
-			45deg,
-			var(--color-dark-15) 64%,
-			var(--color-accent) 136%
-	);
+	--color-dark: #000;
 	
-	--border: #{rem(1)} solid var(--color-dark-15);
+	--border: #{rem(1)} solid var(--accent-color);
 	
 	--shadow: 0 0 0 #{rem(3)} #191919;
 	
-	--font-family-base: 'Inter', sans-serif;
-	--font-family-accent: 'Kumbh Sans', sans-serif;
+	--font-family: 'Raleway';
 	
-	--container-width: #{rem(1600)};
-	--container-padding-x: #{rem(16)};
+	--container-width: #{rem(1110)};
 	
-	--transition-duration: 0.2s;
+	--transition: 0.5s ease;
 	
 	--100vw: calc(100vw - var(--scrollbar-width));
-	
-	@include laptop {
-		--container-width: #{rem(1280)};
-	}
 }

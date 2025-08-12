@@ -1,5 +1,5 @@
 import {type FC} from 'react';
-import classes from './MainButton.module.scss';
+import classes from  './MainButton.module.scss';
 
 interface props {
     format: 'primary' | 'outlined',
@@ -9,7 +9,7 @@ interface props {
 
 const MainButton: FC<props> = ({children}) => {
     return (
-        <button className={classes.button}>
+        <button className={`${classes.button} ${classes.primary}`}>
             {children}
         </button>
     );
