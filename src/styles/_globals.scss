@@ -5,9 +5,10 @@ body {
 	font-weight: 500;
 	color: var(--color-dark);
 	font-size: rem(17);
+	line-height: 140%;
 }
 
 a {
-	color: var(--color-dark);
 	text-decoration: none;
+	color: var(--color-dark);
 }
