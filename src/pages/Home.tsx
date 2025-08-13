@@ -5,6 +5,18 @@ const Home: FC = () => {
     return (
         <main>
             <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
+            <Offer />
         </main>
     );
 };

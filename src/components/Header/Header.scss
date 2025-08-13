@@ -1,15 +1,31 @@
 @use '/src/styles/helpers' as *;
 
 .header {
+	position: fixed;
+	top: 0;
 	padding: rem(51) 0 rem(41);
 	background-color: #fff;
+	margin: 0 auto;
+	width: 100%;
+	box-shadow: 0 rem(4) rem(15) 0 rgba(0, 0, 0, 0.05);
+	
+	& .container {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
 	
 	&__nav {
 		display: flex;
-		max-width: rem(1110);
-		width: 100%;
 		justify-content: space-between;
-		margin: 0 auto;
+		align-items: center;
+		gap: rem(140);
+		font-size: rem(15);
+		font-weight: 400;
+		
+		&-item {
+			color: var(--color-dark);
+		}
 		
 		&-list {
 			display: flex;
@@ -17,10 +33,23 @@
 			gap: rem(45);
 			margin: 0;
 			padding: 0;
+			
+			& .active a {
+				font-weight: 700;
+				color: var(--accent-color);
+			}
 		}
 	}
 	
 	&__phone-wrapper {
 		display: flex;
+		color: var(--accent-color);
+		font-size: rem(15);
+		font-weight: 400;
+		
+		& a {
+			width: rem(129);
+			margin-left: rem(9);
+		}
 	}
 }
