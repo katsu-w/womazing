@@ -3,19 +3,7 @@ import type {FC} from "react";
 
 const Home: FC = () => {
     return (
-        <main>
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
-            <Offer />
+        <main className='layout'>
             <Offer />
         </main>
     );
