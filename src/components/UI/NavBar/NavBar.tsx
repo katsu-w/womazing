@@ -1,12 +1,7 @@
 import './NavBar.scss';
 import {Link} from "react-router";
 
-interface NavBarProps {
-	parent: string;
-}
-
-export function NavBar(props: NavBarProps) {
-	const {parent} = props;
+export function NavBar() {
 	
 	return (
 		<nav className="nav header__nav">

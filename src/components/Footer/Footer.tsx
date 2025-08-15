@@ -7,7 +7,7 @@ export function Footer() {
 		<footer className="footer">
 			<div className="container">
 				<div className="footer-inner">
-					<NavBar parent='footer' />
+					<NavBar />
 				</div>
 			</div>
 		</footer>
