@@ -1,0 +1,6 @@
+@use '/src/styles/helpers' as *;
+
+.footer {
+	background-color: var(--section-color);
+	padding: rem(100) 0;
+}
