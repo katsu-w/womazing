@@ -1,0 +1,27 @@
+@use '/src/styles/helpers' as *;
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: rem(140);
+	font-size: rem(15);
+	font-weight: 400;
+	
+	&__item {
+		color: var(--color-dark);
+	}
+	
+	&__list {
+		display: flex;
+		list-style: none;
+		gap: rem(45);
+		margin: 0;
+		padding: 0;
+		
+		& .active a {
+			font-weight: 700;
+			color: var(--accent-color);
+		}
+	}
+}

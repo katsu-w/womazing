@@ -1,0 +1,17 @@
+@use '/src/styles/helpers' as *;
+
+.footer {
+	background-color: var(--section-color);
+	padding: rem(100) 0;
+	
+	&-inner {
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	&__contacts {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+}
