@@ -6,6 +6,9 @@ const AppRouter: FC = () => {
     return (
         <Routes>
             <Route path='/' element={<Home />} />
+	          <Route path='/shop' element={<Home />} />
+	          <Route path='/about' element={<Home />} />
+	          <Route path='/contacts' element={<Home />} />
             <Route path='*' element={<Navigate replace to='/' />} />
         </Routes>
     );
