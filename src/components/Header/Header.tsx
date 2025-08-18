@@ -6,7 +6,7 @@ export const Header: FC = () => {
     return (
 	    <header className="header">
 		    <div className="container">
-			    <NavBar />
+			    <NavBar parent="header" />
 			    <div className="header__phone-wrapper">
 				    <img src="/telephone-icon.svg" width={14.45} alt=""/>
 				    <a href="tel:+74958235412"

@@ -3,13 +3,36 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	gap: rem(140);
+	align-items: flex-start;
+	width: 65%;
 	font-size: rem(15);
 	font-weight: 400;
 	
+	.brand-wrapper {
+		display: inline-flex;
+		flex-direction: column;
+		justify-content: space-between;
+		gap: rem(60);
+	}
+	
+	.copyright {
+		display: flex;
+		flex-direction: column;
+		
+		&, small {
+			font-size: rem(13);
+		}
+	}
+	
 	&__item {
 		color: var(--color-dark);
+	}
+	
+	&__sub-item {
+		display: flex;
+		flex-direction: column;
+		font-size: rem(13);
+		margin-top: rem(40);
 	}
 	
 	&__list {

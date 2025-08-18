@@ -7,7 +7,7 @@ export function Footer() {
 		<footer className="footer">
 			<div className="container">
 				<div className="footer-inner">
-					<NavBar />
+					<NavBar parent="footer" />
 					<div className="footer__contacts">
 						<a href="tel:+74958235412"
 						   className="phone"
