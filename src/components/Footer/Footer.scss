@@ -14,5 +14,19 @@
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
+		gap: rem(30);
+	}
+	
+	&__traditionals {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		gap: rem(2);
+	}
+	
+	&__social-media {
+		display: flex;
+		align-items: center;
+		gap: rem(12);
 	}
 }
