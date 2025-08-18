@@ -23,7 +23,7 @@ export function Footer() {
 						</div>
 						<div className="footer__social-media">
 							<a
-								class="footer__social-link"
+								className="footer__social-link"
 								href="https://github.com/katsu-w"
 							>
 								<img
@@ -34,7 +34,7 @@ export function Footer() {
 								/>
 							</a>
 							<a
-								class="footer__social-link"
+								className="footer__social-link"
 								href="https://github.com/katsu-w"
 							>
 								<img
@@ -45,7 +45,7 @@ export function Footer() {
 								/>
 							</a>
 							<a
-								class="footer__social-link"
+								className="footer__social-link"
 								href="https://github.com/katsu-w"
 							>
 								<img

@@ -1,4 +1,4 @@
-import Offer from "../components/Offer.tsx";
+import Offer from "../components/Offer/Offer.tsx";
 import type {FC} from "react";
 
 const Home: FC = () => {
