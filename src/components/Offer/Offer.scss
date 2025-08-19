@@ -26,6 +26,16 @@
 		font-size: rem(20);
 		font-weight: 400;
 	}
+	
+	&__buttons {
+		display: flex;
+		align-items: center;
+	}
+	
+	&__button.arrow-button {
+		padding: rem(19.5) rem(27);
+		background-color: rgba(110, 156, 159, 10%);
+	}
 }
 
 .slider-controls {
