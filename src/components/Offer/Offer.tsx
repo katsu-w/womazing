@@ -4,7 +4,7 @@ import './Offer.scss';
 
 const Offer: FC = () => {
     return (
-        <article className="offer">
+        <article className="offer container">
             <div className="offer__content">
                 <div className="offer__content-inner">
 	                <h1 className="offer__heading">
