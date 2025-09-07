@@ -11,6 +11,11 @@ body {
 a {
 	text-decoration: none;
 	color: var(--color-dark);
+	transition: 0.2s ease;
+	
+	&:hover {
+		color: var(--accent-color);
+	}
 }
 
 .layout {

@@ -30,7 +30,7 @@ const Offer: FC = () => {
             </div>
 	          <div className="slider">
 		          <img
-			          src="/public/slider-main-photo.jpg"
+			          src="/slider-main-photo.jpg"
 			          alt=""
 			          width=""
 			          height=""

@@ -27,7 +27,7 @@ export function Footer() {
 								href="https://github.com/katsu-w"
 							>
 								<img
-									src="/public/instagram-icon.svg"
+									src="/instagram-icon.svg"
 									alt=""
 									width="22"
 									height="22"
@@ -38,7 +38,7 @@ export function Footer() {
 								href="https://github.com/katsu-w"
 							>
 								<img
-									src="/public/facebook-icon.svg"
+									src="/facebook-icon.svg"
 									alt=""
 									width="21"
 									height="21"
@@ -49,7 +49,7 @@ export function Footer() {
 								href="https://github.com/katsu-w"
 							>
 								<img
-									src="/public/twitter-icon.svg"
+									src="/twitter-icon.svg"
 									alt=""
 									width="23"
 									height="23"
@@ -58,7 +58,7 @@ export function Footer() {
 						</div>
 						<img
 							className="footer__payments"
-							src="/public/visa-mastercard-logos.png"
+							src="/visa-mastercard-logos.png"
 							alt=""
 							width="68"
 							height="22"
