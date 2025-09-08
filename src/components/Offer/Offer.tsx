@@ -32,8 +32,8 @@ const Offer: FC = () => {
 		          <img
 			          src="/slider-main-photo.jpg"
 			          alt=""
-			          width=""
-			          height=""
+			          width="410"
+			          height="646"
 			          loading="lazy"
 		          />
 	          </div>
